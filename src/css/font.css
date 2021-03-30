@@ -1,0 +1,6 @@
+/* Fonte do site */
+
+@font-face {
+    font-family: "IBMPlexMono";
+    src: local(IBMPlexMono-Regular),url('../fonts/IBMPlexMono-Regular.ttf');
+}

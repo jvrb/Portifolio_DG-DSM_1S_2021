@@ -1,0 +1,49 @@
+#apresentacao{
+  border-bottom: none;
+}
+
+#apresentacao #logo {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  background-size: 150px 150px;
+  background-position: 20% 20%;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  border-radius: 80px;
+  border: 5px solid #ccc;
+}
+
+
+@media(min-width: 320px) {
+
+  #logo
+  {
+    margin: 0 auto;
+  }
+
+  #apresentacao #descricao, #descricao h2{
+    text-align: center;
+    margin-left: 0;
+    font-size: 1.7rem;
+  }
+
+  #apresentacao #descricao #cursos{
+    margin-top: 30px;
+  }
+
+
+
+  .nav-link{
+    padding: 8px 10px;
+  }
+
+  .cards-projects{
+    width: 300px;
+  }
+
+  .rodape{
+    margin: 0 auto;
+  }
+
+}

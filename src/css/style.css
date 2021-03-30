@@ -1,0 +1,147 @@
+html,body {
+    height: 100vh;
+}
+
+body{
+    background-image: url(../img/pattern.png);
+    font-family:IBMPlexMono;
+
+}
+
+#tudo {
+    min-height: 100vh;
+    position: relative;
+}
+
+.principal {
+    padding-bottom: 35px;
+}
+
+#apresentacao {
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(61, 61, 61);
+}
+
+#apresentacao #perfil {
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/perfil-img.jpg);
+    background-size: 150px 150px;
+    background-position: 30% 60%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    border-radius: 80px;
+    border: 5px solid #ccc;
+}
+
+#apresentacao #perfil:hover{
+    border: 5px solid rgb(61, 61, 61);
+}
+
+#apresentacao #descricao {
+    margin-left: 30px;
+    margin-top: 80px;
+    font-family: IBMPlexMono;
+    font-size: 18px;
+}
+
+#apresentacao #descricao #cursos p {
+    margin: 0px;
+    font-size: 15px;
+}
+
+#apresentacao #perfil-img .icon-midia {
+    width: 25px;
+}
+
+#apresentacao #perfil-img img:hover{
+    transform: scale(1.2);
+}
+
+/*  */
+a {
+    color: black;
+}
+
+a:hover {
+    color: color: rgb(114, 114, 114);
+    transform: scale(1.1);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-pills .nav-link.active {
+    background-color: rgb(51, 51, 51);
+}
+
+.nav-link{
+  background-color: #ccc;
+  margin-top: 15px;
+}
+
+.nav-link:hover{
+  color: white;
+}
+
+
+/* Cards da ABA PROJETOS */
+.cards-projcts{
+  color: black;
+  text-decoration: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px 8px #EEE;
+}
+
+.cards-projcts:hover{
+  transform: scale(1.02);
+  box-shadow: 5px 5px 1px rgb(114, 114, 114);
+}
+
+
+.rodape {
+    position: absolute;
+    height: 50px;
+    bottom: 0;
+    padding-top: 15px;
+}
+
+
+@media(max-width: 425px) {
+
+  #perfil
+  {
+    margin: 0 auto;
+  }
+
+  #perfil-img
+  {
+    text-align: center;
+  }
+
+  #apresentacao #descricao, #descricao h2{
+    margin-left: 0;
+    font-size: 1.7rem;
+  }
+
+  #apresentacao #descricao #cursos{
+    margin-top: 30px;
+  }
+
+  a:hover{
+    transform: none;
+  }
+
+  .nav-link{
+    padding: 8px 10px;
+  }
+
+  .cards-projects{
+    width: 300px;
+  }
+
+  .rodape{
+    position: relative;
+    margin: 0 auto;
+  }
+
+}
