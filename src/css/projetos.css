@@ -14,6 +14,23 @@
   border: 5px solid #ccc;
 }
 
+.btn{
+  background-color: #861199;
+  border: 1px solid white;
+  color: white;
+}
+
+.btn:hover{
+  background-color: white;
+  border: 1px solid #861199;
+  color: #861199;
+}
+
+a:active{
+  background-color: white;
+  border: 1px solid #861199;
+  color: #861199;
+}
 
 @media(min-width: 320px) {
 
