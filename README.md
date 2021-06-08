@@ -8,4 +8,5 @@
 
 
 ## Vídeo do Projeto
-https://youtu.be/JOjzDX-2Ius
+Primeira Entrega -> https://youtu.be/JOjzDX-2Ius
+Entrega Final -> https://youtu.be/VI0Nd8wX9Ys
